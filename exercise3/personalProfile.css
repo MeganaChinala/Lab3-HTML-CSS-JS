@@ -1,0 +1,61 @@
+body
+{
+    background-color:#88d6e8;
+}
+
+img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p
+{
+    background-color:#88d6e8;
+    color: black;
+    font-family: calibri;
+    font-size: 15 pt;
+}
+
+p.random
+{
+    background-color:#88d6e8;
+    color: red;
+    font-family: "Comic Sans MS";
+    font-size: 25 pt; 
+}
+h1
+{
+    background-color: #88d6e8;
+    color:#a646d6; 
+    font-family: calibri;
+    font-size: 50 pt;
+}
+
+h2
+{
+    background-color: #88d6e8;
+    color:#a646d6; 
+    font-family: calibri;
+    font-size: 28pt;
+}
+
+body 
+{
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+a
+{
+    background-color: #88d6e8;
+    color: black;
+}
+
+a:hover
+{
+    background-color: #88d6e8;
+    color:red;
+}
