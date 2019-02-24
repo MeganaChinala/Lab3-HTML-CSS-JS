@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <script type="text/javascript" 
+            src="cssManipulator.js">
+    </script>
+    <title>RGB Maniupulation</title>
+</head>
+
+<body>
+    <p id="changedText">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+        Vivamus vel tortor eu turpis condimentum elementum id eget dui. 
+        Vestibulum et blandit dolor. Nulla id interdum elit, nec vulputate leo. Phasellus eu auctor neque. 
+        Donec leo nibh, eleifend eget dapibus id, elementum quis ante. Vestibulum sit amet viverra libero, a iaculis massa. Sed justo
+        nibh, congue sit amet euismod u.
+        <br><br>
+        ^This is all dummy text that will be manipulated by you :)
+    </p>
+    <br>
+    Insert a value between 0 and 255 for any of the Red, Green, Blue values.
+    <br><br>
+<div>
+    Border:<br>
+    Red Value: <input type="text" id="RV"><br>
+    Green Value: <input type="text" id="GV"><br>
+    Blue Value: <input type="text" id="BV"><br>
+    Width: <input type="text" id="WV"><br><br>
+    
+    Background Color:<br>
+    Red Value: <input type="text" id="backR"><br>
+    Green Value: <input type="text" id="backG"><br>
+    Blue Value: <input type="text" id="backB"><br><br>
+    
+    <button id="button" onclick="RGBManipulate()">Change Color</button>
+</div>
+   
+</body>
+
+</html>
